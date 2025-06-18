@@ -51,9 +51,6 @@ h4 {
     border: 3px double black;
     transition: ease 0.3s;
 }
-.common > div > img:hover {
-    transform: scale(1.1);
-}
 .common-2 {
     padding: 20px;
     display: grid;
@@ -68,6 +65,8 @@ h4 {
     border: 1px solid black;
     transition: ease 0.3s;
 }
+.common > div > img:hover,
+.common-2 > div > a > img:hover,
 .common-2 > div > img:hover {
     transform: scale(1.1);
 }
